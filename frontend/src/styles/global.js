@@ -8,6 +8,7 @@ export default createGlobalStyle`
     outline: 0;
     box-sizing: border-box;
   }
+
   body {
     font: 400 14px Roboto, sans-serif;
     background: ${(props) => props.theme.colors.background};
@@ -41,6 +42,7 @@ export default createGlobalStyle`
     border-radius: 8px;
     padding: 16px 24px;
     line-height: 24px;
+    margin-top: 10px;
   }
 
   .button{
@@ -63,5 +65,24 @@ export default createGlobalStyle`
   .button:hover{
     filter: brightness(90%);
   }
+
+  .back-link{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #e02041;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.back-link svg{
+    margin-right: 8px;
+}
+
+.back-link :hover{
+    opacity: 0.8;
+}
 
 `
