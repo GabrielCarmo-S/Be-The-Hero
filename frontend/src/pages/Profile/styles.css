@@ -30,7 +30,7 @@
     width: 60px;
     border-radius: 4px;
     border-radius: 1px solid #dcdce6;
-    background: transparent;
+    background: #e02041;
     margin-left: 16px;
     transition: border-color 0.2s;
 }
