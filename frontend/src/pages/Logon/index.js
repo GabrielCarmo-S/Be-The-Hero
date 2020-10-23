@@ -1,11 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React, { useState } from 'react'
 import { FiLogIn } from 'react-icons/fi';
 import {Link, useHistory} from 'react-router-dom';
 import api from '../../services/api';
 import './styles.css';
 import heroesImg from '../../assets/heroes.png'
-
-import { ThemeContext } from 'styled-components'
+import logo from '../../assets/logo1.svg'
 
 export default function Logon() {
   const [id, setId] = useState('');
@@ -25,8 +24,6 @@ export default function Logon() {
       alert('Falha no login, tente novamente');
     }
   }
-
-  const { logo } = useContext(ThemeContext)
 
   return (
     <div className="logon-container">

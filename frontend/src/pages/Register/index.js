@@ -1,13 +1,9 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-
 import api from '../../services/api';
-
-import { Container, Content, Section, Form } from './styles';
-
-import { ThemeContext } from 'styled-components'
-
+import './styles.css'
+import logo from '../../assets/logo1.svg'
 
 export default function Register() {
   const [name, setName] = useState('');
@@ -42,13 +38,11 @@ export default function Register() {
     
   }
 
-  const { logo } = useContext(ThemeContext);
-
   return (
-    <Container>
-      <Content>
-        <Section>
-          <img src={logo} alt="Be the Heor" />
+    <div className="register-container">
+      <div className="content">
+        <section>
+          <img src={logo} alt="Be the Hero" />
 
           <h1>Cadastro</h1>
           <p>Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
@@ -57,8 +51,8 @@ export default function Register() {
             <FiArrowLeft size={16} color="#E02041" />
             Não tenho cadastro
           </Link>
-        </Section>
-        <Form onSubmit={handleRegister}>
+        </section>
+        <form onSubmit={handleRegister}>
           <input placeholder="Nome da Ong" value={name} onChange={(e) => setName(e.target.value)} />
           <input type="email" placeholder="E-mail" value={email} onChange={(e) => setEmail(e.target.value)} />
           <input placeholder="WhatsApp" value={whatsapp} onChange={(e) => setWhatsapp(e.target.value)} />
@@ -69,8 +63,8 @@ export default function Register() {
           </div>
 
           <button className="button" type="submit">Cadastrar</button>
-        </Form>
-      </Content>
-    </Container>
+        </form>
+      </div>
+    </div>
   )
 }

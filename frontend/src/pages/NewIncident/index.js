@@ -1,11 +1,9 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
-import api from '../../services/api'
-import { Container, Content, Section, Form } from './styles';
-
-import { ThemeContext } from 'styled-components'
-
+import api from '../../services/api';
+import './styles.css';
+import logo from '../../assets/logo1.svg';
 
 export default function NewIncident() {
   const [title, setTitle] = useState('');
@@ -39,12 +37,10 @@ export default function NewIncident() {
 
   }
 
-  const { logo } = useContext(ThemeContext)
-
   return (
-    <Container>
-      <Content>
-        <Section>
+    <div className="new-incident-container">
+      <div className="content">
+        <section>
           <img src={logo} alt="Be the Heor" />
 
           <h1>Cadastrar novo caso</h1>
@@ -54,15 +50,15 @@ export default function NewIncident() {
             <FiArrowLeft size={16} color="#E02041" />
             Voltar para home
           </Link>
-        </Section>
-        <Form onSubmit={handleNewIncident}> 
+        </section>
+        <form onSubmit={handleNewIncident}> 
           <input value={title} onChange={e => setTitle(e.target.value)} placeholder="Título do caso" />
           <textarea value={description} onChange={e => setDescription(e.target.value)} placeholder="Descrição" />
           <input value={value} onChange={e => setValue(e.target.value)} placeholder="Valor em Reais" />
            
           <button className="button" type="submit">Cadastrar</button>
-        </Form>
-      </Content>
-    </Container>
+        </form>
+      </div>
+    </div>
   )
 }
