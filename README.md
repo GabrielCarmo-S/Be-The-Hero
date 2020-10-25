@@ -32,6 +32,7 @@ Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, le
 
 <p align="center">
     <img alt="" title="" src="github/n1.gif">
+    <img alt="" title="" src="github/mobile.gif">
     <img alt="" title="" src="github/n2.gif">
     <img alt="" title="" src="github/n3.gif">
 </p>
