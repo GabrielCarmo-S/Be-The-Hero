@@ -6,6 +6,7 @@ export default StyleSheet.create({
     flex: 1,
     paddingHorizontal: 24,
     paddingTop: Constants.statusBarHeight + 20,
+    backgroundColor: '#0C090D'
   },
   header: {
     flexDirection: 'row',
@@ -15,7 +16,7 @@ export default StyleSheet.create({
 
   headerText: {
     fontSize: 15,
-    color: '#737380',
+    color: '#fff',
   },
 
   headerTextBold: {
@@ -25,15 +26,15 @@ export default StyleSheet.create({
   title:{
     fontSize: 30,
     marginBottom: 16,
-    marginTop: 48,
-    color: '#13131a',
+    marginTop: 10,
+    color: '#fff',
     fontWeight: 'bold'
   },
 
   description: {
     fontSize: 16,
     lineHeight: 24,
-    color: '#737380'
+    color: '#fff'
   },
 
   incidentList: {
