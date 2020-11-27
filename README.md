@@ -6,7 +6,7 @@
 
 <h2 align="center"> Aplicação para conectar ONGs e outras instituições a pessoas que tem disponibilidade para ajudar </h2>
 
-<h3 align="center"> Criada com a stack <img src="github/react.png" alt="react" height="18"> React, <img src="github/react-native.png" alt="react-native" height="18"> React Native, <img src="github/node.png" alt="node" height="18"> Node e <img src="github/sqlite.png" alt="node" height="18"> SQLite </h3>
+<h3 align="center"> Criada com as tecnologias <img src="github/react.png" alt="react" height="18"> React, <img src="github/react-native.png" alt="react-native" height="18"> React Native, <img src="github/node.png" alt="node" height="18"> Node e <img src="github/sqlite.png" alt="node" height="18"> SQLite </h3>
 
 <p align="center"> <img src="github/heroes.png" alt="heroes" height="250"> </p>
 
