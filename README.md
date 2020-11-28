@@ -14,8 +14,6 @@
 
 Um sistema para conectar pessoas dispostas a ajudar a ONGs que precisam dessa ajuda.
 
-[Layout](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1) da aplicação no <img src="github/figma.png" alt="figma" height="20"> Figma.
-
 ## Para rodar a aplicação
 
 > OBS: pode-se utilizar o gerenciador de pacotes npm ou o yarn para rodar os comandos abaixo
