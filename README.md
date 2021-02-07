@@ -26,15 +26,15 @@ Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, le
 
 ## Telas
 
-<p align="center">
-    <img alt="web1" title="" src="github/n1.gif" height="425">
-    <img alt="mobile" title="" src="github/mobile.gif" height="425">
-</p>
+<div align="center">
+    <img alt="web1" height="425" src="github/n1.gif" height="425">
+    <img alt="mobile" height="425" src="github/mobile.gif" height="425">
+</div>
 
-<p align="center">
-    <img alt="web2" title="" src="github/n2.gif">
-    <img alt="web3" title="" src="github/n3.gif">
-</p>
+<div align="center">
+    <img alt="web2" height="425" src="github/n2.gif">
+    <img alt="web3" height="425" src="github/n3.gif">
+</div>
 
 ---
 
